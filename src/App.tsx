@@ -15,19 +15,25 @@ function App() {
       <p>Click on the Tauri, Vite, and React logos to learn more.</p>
 
       <form
-        className="row"
+        className="flex flex-col w-52"
         onSubmit={(e) => {
           e.preventDefault();
           greet();
         }}
       >
         <input
+          className="border border-black/50"
           onChange={(e) => setName(e.currentTarget.value)}
           placeholder="Enter a name..."
         />
-        <button type="submit">Greet</button>
+        <button
+          className="bg-black rounded-md px-3 py-1 text-white"
+          type="submit"
+        >
+          Greet
+        </button>
       </form>
-      <p>{greetMsg}</p>
+      <p className="text-base font-bold">{greetMsg}</p>
     </main>
   );
 }
