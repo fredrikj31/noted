@@ -8,6 +8,7 @@ import {
 import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 import { HomePage } from "./pages/Home";
 import { EditorPage } from "./pages/Editor";
+import { EditorProvider } from "./providers/Editor";
 
 const rootRoute = createRootRoute({
   component: () => (
@@ -42,7 +43,9 @@ declare module "@tanstack/react-router" {
 export const App = () => {
   return (
     <>
-      <RouterProvider router={router} />
+      <EditorProvider>
+        <RouterProvider router={router} />
+      </EditorProvider>
     </>
   );
 };
