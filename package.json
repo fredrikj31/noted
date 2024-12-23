@@ -21,8 +21,8 @@
     "@electron-forge/plugin-fuses": "^7.6.0",
     "@electron-forge/plugin-webpack": "^7.6.0",
     "@electron/fuses": "^1.8.0",
-    "@types/react": "^19.0.2",
-    "@types/react-dom": "^19.0.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "@vercel/webpack-asset-relocator-loader": "^1.7.3",
@@ -30,6 +30,8 @@
     "css-loader": "^6.11.0",
     "electron": "33.2.1",
     "eslint": "^8.57.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.7.0",
     "eslint-plugin-import": "^2.31.0",
     "fork-ts-checker-webpack-plugin": "^7.3.0",
     "node-loader": "^2.1.0",
@@ -47,8 +49,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "electron-squirrel-startup": "^1.0.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
