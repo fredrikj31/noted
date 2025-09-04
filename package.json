@@ -28,7 +28,7 @@
     "@vercel/webpack-asset-relocator-loader": "^1.7.3",
     "autoprefixer": "^10.4.20",
     "css-loader": "^6.11.0",
-    "electron": "33.2.1",
+    "electron": "35.7.5",
     "eslint": "^8.57.1",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^3.7.0",
